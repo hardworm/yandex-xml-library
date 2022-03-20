@@ -1,0 +1,33 @@
+{
+    "name": "hardworm/yandex-xml-library",
+    "description": "Un-Official Yandex-XML PHP library",
+    "keywords":["yandex", "yandex.xml", "yandex xml", "sdk"],
+    "type":"library",
+    "license": "MIT",
+    "version": "1.1.0",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "hardworm\\YandexXml\\": "src/YandexXml"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anton Shevchuk",
+            "email": "AntonShevchuk@gmail.com"
+        },
+        {
+            "name": "Mihail Bubnov",
+            "email": "bubnov.mihail@gmail.com"
+        },
+        {
+            "name": "Alexander Zelenkov",
+            "email": "hardworm@gmail.com"
+        }
+    ]
+}
