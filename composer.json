@@ -11,6 +11,9 @@
         "ext-curl": "*",
         "ext-simplexml": "*"
     },
+    "replace": {
+        "anton-shevchuk/yandex-xml-library": "1.*"
+    },
     "autoload": {
         "psr-4": {
             "hardworm\\YandexXml\\": "src/YandexXml"
