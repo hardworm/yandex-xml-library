@@ -7,9 +7,12 @@
     "version": "1.1.0",
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.3",
+        "php": ">=7.4",
         "ext-curl": "*",
         "ext-simplexml": "*"
+    },
+    "require-dev": {
+        "phpcompatibility/php-compatibility": "^9.3"
     },
     "replace": {
         "anton-shevchuk/yandex-xml-library": "1.*"
